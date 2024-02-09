@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int n, i = 1;
+    cin >> n;
+    while(i <= n){
+        if(i % 8 == 0 || i % 12 == 0){
+            cout << i << " ";
+        }
+        i++;
+    }
+    return 0;
+}
